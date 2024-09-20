@@ -18,15 +18,38 @@ body {
     text-align: center;
 }
 
+.bcol {
+    background-color: lightblue;
+}
+
 table, tr, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
-
+.total {
+    position: relative;
+    left: 230px;
+}
 
 .rules {
     font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -300px;
+    right: -510px;
+    width: 500px;
+}
+
+.or {
+    position: relative;
+    top: -200px;
+    right: -510px;
+}
+
+.app {
+    position: relative;
+    top: -100px;
+    right: -600px;
 }
 
 .foot {
