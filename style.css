@@ -2,6 +2,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.border {
+    border: 2px solid black;
+}
+
 .headp {
     text-align: center;
 }
@@ -11,14 +23,12 @@ table, tr, td {
     border-collapse: collapse;
 }
 
-.container {
-    background-color: white;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-}
+
 
 .rules {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.foot {
+    background-color: lightblue;
 }
