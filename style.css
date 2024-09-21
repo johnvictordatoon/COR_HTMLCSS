@@ -34,6 +34,11 @@ table, tr, td {
     border-collapse: collapse;
 }
 
+.tablepos {
+    position: relative;
+    left: 10px;
+}
+
 .total {
     position: relative;
     left: 230px;
@@ -43,14 +48,14 @@ table, tr, td {
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     top: -300px;
-    right: -510px;
-    width: 500px;
+    right: -530px;
+    width: 450px;
 }
 
 .or {
     position: relative;
     top: -200px;
-    right: -510px;
+    right: -530px;
 }
 
 .app {
