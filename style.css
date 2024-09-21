@@ -2,7 +2,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+#psulogo {
+    position: relative;
+    top: 50px;
+    right: 300px;
+    max-width: 10%;
+}
+
+.docx {
     background-color: white;
     max-width: 1000px;
     margin: 0 auto;
